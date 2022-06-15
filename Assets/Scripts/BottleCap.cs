@@ -15,7 +15,7 @@ public class BottleCap : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             float initialXPos = transform.position.x;
-            transform.DOMove(new Vector3(initialXPos - 1f, transform.position.y, transform.position.z), 0.5f);
+            transform.DOMove(new Vector3(initialXPos - 3f, transform.position.y, transform.position.z), 1f);
         }
     }
 }

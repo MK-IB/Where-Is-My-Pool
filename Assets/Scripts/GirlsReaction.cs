@@ -11,7 +11,7 @@ public class GirlsReaction : MonoBehaviour
     private Rigidbody _rb;
     public Transform point1, point2;
     public GameObject heartParticle;
-    public Cloth cloth;
+    public Cloth[] cloth;
 
     private void Start()
     {
@@ -22,7 +22,11 @@ public class GirlsReaction : MonoBehaviour
 
     public IEnumerator GetIntoThePool()
     {
-        cloth.enabled = true;
+        for (int i = 0; i < cloth.Length; i++)
+        {
+            cloth[i].enabled = true;
+        }
+        
         yield return new WaitForSeconds(1f);
         _animator.SetTrigger("jump");
         yield return new WaitForSeconds(0.5f);

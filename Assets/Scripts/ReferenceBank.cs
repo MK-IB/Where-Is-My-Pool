@@ -7,6 +7,10 @@ public class ReferenceBank : MonoBehaviour
 {
     public static ReferenceBank instance;
 
+    public GameObject bathTub;
+    public Camera effectCamera;
+    public Camera defaultCamera;
+
     public GameObject boy;
 
     private void Awake()

@@ -359,6 +359,13 @@
           </e>
         </e>
         <e p="LinearGradient.shader" t="Include" />
+        <e p="Polygon Arsenal" t="Include">
+          <e p="Shaders" t="Include">
+            <e p="Standard" t="Include">
+              <e p="PolyLitSurface.shader" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Scripts" t="Include">
           <e p="AnimationSetter.cs" t="Include" />
           <e p="BottleCap.cs" t="Include" />
@@ -366,6 +373,7 @@
           <e p="InGameManager.cs" t="Include" />
           <e p="ReferenceBank.cs" t="Include" />
           <e p="SimpleMovement.cs" t="Include" />
+          <e p="Tutorials.cs" t="Include" />
           <e p="WaterLevel.cs" t="Include" />
         </e>
         <e p="TextMesh Pro" t="Include">
