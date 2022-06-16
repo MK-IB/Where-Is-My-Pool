@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
@@ -10,12 +11,10 @@ public class BottleCap : MonoBehaviour
     {
         
     }
-    void Update()
+
+    private void OnMouseDown()
     {
-        if (Input.GetMouseButtonDown(0))
-        {
-            float initialXPos = transform.position.x;
-            transform.DOMove(new Vector3(initialXPos - 3f, transform.position.y, transform.position.z), 1f);
-        }
+        float initialXPos = transform.position.x;
+        transform.DOMove(new Vector3(initialXPos - 3f, transform.position.y, transform.position.z), 1f);
     }
 }

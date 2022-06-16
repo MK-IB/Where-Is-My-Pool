@@ -9,6 +9,8 @@ using Water2D;
 public class WaterLevel : MonoBehaviour
 {
     public Transform waterLevel;
+
+    public Water2D_Spawner water2DSpawner;
     public float fillSpeed;
     public TextMeshPro perText;
     public float totalParticles;
@@ -22,6 +24,7 @@ public class WaterLevel : MonoBehaviour
 
     private void Start()
     {
+        totalParticles = water2DSpawner.DropCount;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -40,19 +43,28 @@ public class WaterLevel : MonoBehaviour
                 underwaterBubbleEffect.Play();
                 steamEffect.Play();
             }
-            if (per == 70)
+            if (per >= 55)
             {
-                for (int i = 0; i < girlsReactions.Length; i++)
-                {
-                    StartCoroutine(girlsReactions[i].GetIntoThePool());
-                }
-
-                DOVirtual.DelayedCall(3.5f, () =>
-                {
-                    winConfettiBlast.SetActive(true);
-                    InGameManager.instance.WinEffects();
-                });
+                EnoughWaterReached();
             }
         }
+    }
+
+    private bool _enoughReached;
+    void EnoughWaterReached()
+    {
+        if (_enoughReached) return;
+        
+        _enoughReached = true;
+        for (int i = 0; i < girlsReactions.Length; i++)
+        {
+            StartCoroutine(girlsReactions[i].GetIntoThePool());
+        }
+
+        DOVirtual.DelayedCall(3.5f, () =>
+        {
+            winConfettiBlast.SetActive(true);
+            InGameManager.instance.StartCoroutine(InGameManager.instance.WinEffects());
+        });
     }
 }
