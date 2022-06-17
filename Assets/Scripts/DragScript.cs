@@ -20,6 +20,7 @@ public class DragScript : MonoBehaviour
         /*float time = Random.Range(1f, 1.5f);
         StartCoroutine(ScaleUp(time));*/
         originalPos = transform.position;
+        isDraggable = true;
     }
 
     IEnumerator ScaleUp(float delay)

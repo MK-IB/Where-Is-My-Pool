@@ -16,8 +16,6 @@ public class InGameManager : MonoBehaviour
 
     private void Update()
     {
-        if (Input.GetMouseButtonDown(1))
-            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
     
     public void RetryLevel()
