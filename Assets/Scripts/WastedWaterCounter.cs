@@ -24,7 +24,7 @@ public class WastedWaterCounter : MonoBehaviour
 
    IEnumerator LevelFailed()
    {
-      if(!failCalled);
+      if(!failCalled && !InGameManager.instance.gameOver)
       {
          failCalled = true;
          yield return new WaitForSeconds(2.5f);

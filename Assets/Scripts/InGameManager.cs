@@ -8,6 +8,7 @@ using UnityEngine.SceneManagement;
 public class InGameManager : MonoBehaviour
 {
     public static InGameManager instance;
+    public bool gameOver;
 
     private void Awake()
     {

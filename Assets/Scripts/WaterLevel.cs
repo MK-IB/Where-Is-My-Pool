@@ -53,9 +53,10 @@ public class WaterLevel : MonoBehaviour
     private bool _enoughReached;
     void EnoughWaterReached()
     {
-        if (_enoughReached) return;
+        if (_enoughReached || InGameManager.instance.gameOver) return;
         
         _enoughReached = true;
+        InGameManager.instance.gameOver = true;
         for (int i = 0; i < girlsReactions.Length; i++)
         {
             StartCoroutine(girlsReactions[i].GetIntoThePool());
