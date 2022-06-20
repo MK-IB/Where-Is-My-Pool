@@ -9,6 +9,7 @@ public class InGameManager : MonoBehaviour
 {
     public static InGameManager instance;
     public bool gameOver;
+    public bool isHotWaterLevel;
 
     private void Awake()
     {
@@ -17,6 +18,7 @@ public class InGameManager : MonoBehaviour
 
     private void Update()
     {
+        
     }
     
     public void RetryLevel()

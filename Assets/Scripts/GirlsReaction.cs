@@ -20,7 +20,7 @@ public class GirlsReaction : MonoBehaviour
         //StartCoroutine(GetIntoThePool());
     }
 
-    public IEnumerator GetIntoThePool()
+    public IEnumerator GetIntoThePool(string anim)
     {
         for (int i = 0; i < cloth.Length; i++)
         {
@@ -34,7 +34,7 @@ public class GirlsReaction : MonoBehaviour
         DOTween.Sequence().Append(transform.DOMove(point1.position, 0.5f))
             .Append(transform.DOMove(point2.position, 0.5f)).OnComplete(() =>
             {
-                _animator.SetTrigger("sit");
+                _animator.SetTrigger(anim);
                 //heartParticle.SetActive(true);
             });
     }
