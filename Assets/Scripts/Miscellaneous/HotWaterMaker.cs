@@ -11,7 +11,7 @@ public class HotWaterMaker : MonoBehaviour
         if (other.gameObject.CompareTag("Metaball_liquid"))
         {
             other.gameObject.tag = "Hot_particle";
-            //other.gameObject.GetComponent<SpriteRenderer>().color = hotColor;
+            other.gameObject.GetComponent<SpriteRenderer>().color = hotColor;
         }
     }
 }

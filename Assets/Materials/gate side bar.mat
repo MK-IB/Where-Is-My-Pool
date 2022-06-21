@@ -210,5 +210,5 @@ Material:
     - _SColor: {r: 0.6886792, g: 0.6886792, b: 0.6886792, a: 1}
     - _SpecColor: {r: 0.2, g: 0.2, b: 0.2, a: 1}
     - _SpecularColor: {r: 0.75, g: 0.75, b: 0.75, a: 1}
-    - _TopColor: {r: 1, g: 0.8961649, b: 0.7122642, a: 1}
+    - _TopColor: {r: 1, g: 0.6971815, b: 0.2783019, a: 1}
   m_BuildTextureStacks: []

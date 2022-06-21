@@ -64,7 +64,7 @@ public class WaterLevel : MonoBehaviour
             if(per>30 )
             {
                 underwaterBubbleEffect.Play();
-                steamEffect.Play();
+                //steamEffect.Play();
             }
             if (per >= 55)
             {

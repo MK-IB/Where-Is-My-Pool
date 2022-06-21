@@ -65,4 +65,37 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Levels/Level 20.unity
     guid: d6218daaab803684a8ec9eee9d0f9798
+  - enabled: 1
+    path: Assets/Levels/Level 21.unity
+    guid: 4c83263ae0c7d564b894d556e277023c
+  - enabled: 1
+    path: Assets/Levels/Level 22.unity
+    guid: 6217048e354483f4cbfb2f1a0ec600d7
+  - enabled: 1
+    path: Assets/Levels/Level 23.unity
+    guid: 0460ebea55de43b4d81ddd1dddf5a82a
+  - enabled: 1
+    path: Assets/Levels/Level 24.unity
+    guid: 642f6a5cbf06c914284096bf14dc9e29
+  - enabled: 1
+    path: Assets/Levels/Level 25.unity
+    guid: 06b40d14686bb894a908a5396b26c47d
+  - enabled: 1
+    path: Assets/Levels/Level 26.unity
+    guid: bb4793c061bac184490c19c9c2fa0224
+  - enabled: 1
+    path: Assets/Levels/Level 27.unity
+    guid: e8987b67a84a6224e86d00aa377285a5
+  - enabled: 1
+    path: Assets/Levels/Level 28.unity
+    guid: fcda600a856fe2743911f8d700e2b016
+  - enabled: 1
+    path: Assets/Levels/Level 29.unity
+    guid: 574435bd167220d4a986a24ddd48190b
+  - enabled: 1
+    path: Assets/Levels/Level 30.unity
+    guid: f08f530671db93a49980b3986d9e8a7b
+  - enabled: 1
+    path: Assets/Levels/Level 31.unity
+    guid: a2743ce7331ee37498215323423e7c53
   m_configObjects: {}
