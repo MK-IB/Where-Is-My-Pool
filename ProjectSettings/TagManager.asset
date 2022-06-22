@@ -6,6 +6,7 @@ TagManager:
   tags:
   - particle
   - Metaball_liquid
+  - Hot_particle
   layers:
   - Default
   - TransparentFX

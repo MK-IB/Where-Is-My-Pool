@@ -46,10 +46,12 @@ public class WaterLevel : MonoBehaviour
             {
                 underwaterBubbleEffect.Play();
                 steamEffect.Play();
+                steamEffect.startColor = Color.red;
             }
             if (per >= 55)
             {
                 EnoughWaterReached();
+                DisappearWaterHeater();
             }
         }
         else
@@ -64,7 +66,8 @@ public class WaterLevel : MonoBehaviour
             if(per>30 )
             {
                 underwaterBubbleEffect.Play();
-                //steamEffect.Play();
+                steamEffect.startColor = Color.white;
+                steamEffect.Play();
             }
             if (per >= 55)
             {
@@ -97,6 +100,7 @@ public class WaterLevel : MonoBehaviour
         if (_enoughReached || InGameManager.instance.gameOver) return;
         
         _enoughReached = true;
+        DisappearWaterHeater();
         InGameManager.instance.gameOver = true;
         IceFormation.instance.ShowSnowSpikes();
         
@@ -108,6 +112,15 @@ public class WaterLevel : MonoBehaviour
         {
             //winConfettiBlast.SetActive(true);
             UIManager.instance.failCanvas.SetActive(true);
+        });
+    }
+
+    void DisappearWaterHeater()
+    {
+        DOVirtual.DelayedCall(2.5f, ()=>{
+            Transform waterHeater = HotWaterMaker.instance.transform;
+            waterHeater.DOScale(Vector3.zero, 1.5f);
+            waterHeater.DORotate(Vector3.forward * 90, 1.5f); 
         });
     }
 }

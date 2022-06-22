@@ -370,6 +370,7 @@
           <e p="AnimationSetter.cs" t="Include" />
           <e p="BottleCap.cs" t="Include" />
           <e p="DragScript.cs" t="Include" />
+          <e p="EffectsManager.cs" t="Include" />
           <e p="GirlsReaction.cs" t="Include" />
           <e p="InGameManager.cs" t="Include" />
           <e p="Miscellaneous" t="Include">
@@ -378,8 +379,10 @@
             <e p="HotWaterMaker.cs" t="Include" />
             <e p="IceFormation.cs" t="Include" />
             <e p="ObstacleRotation.cs" t="Include" />
+            <e p="ParticleFollower.cs" t="Include" />
             <e p="RotateOnMouse.cs" t="Include" />
             <e p="Tutorials.cs" t="Include" />
+            <e p="WaterEffectGenerator.cs" t="Include" />
           </e>
           <e p="ReferenceBank.cs" t="Include" />
           <e p="SimpleMovement.cs" t="Include" />

@@ -20,19 +20,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="08886dd1-70b6-4d8b-aa41-c9eff3de0088" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Freeze Emoji Anim.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Freeze Emoji Anim.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Freeze Emoji Reaction.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Freeze Emoji Reaction.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Freezing.fbx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/Freezing.fbx.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Levels/Level 33.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Levels/Level 33.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Levels/Level 34.unity" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Levels/Level 34.unity.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/FogLivelyWhite.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/FogLivelyWhite.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/EffectsManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Miscellaneous/ParticleFollower.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Miscellaneous/WaterEffectGenerator.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/BGs/BG White.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/BGs/BG White.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/BGs/Bg 4.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/BGs/Bg 4.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Shapes New/Pipe Border 1.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Shapes New/Pipe Border 1.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Shapes New/Pipe Border 2.psd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/Shapes New/Pipe Border 2.psd.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/ezgif-1-21cf5bfee0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/ezgif-1-21cf5bfee0.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/ezgif-1-c681322383.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Sprites/ezgif-1-c681322383.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Where-Is-My-Pool/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Where-Is-My-Pool/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Where-Is-My-Pool/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Where-Is-My-Pool/.idea/indexLayout.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Where-Is-My-Pool/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Where-Is-My-Pool/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/Level 21.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Level 21.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/Level 9.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Level 9.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/Physics Test.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Physics Test.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Levels/Test Scene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Test Scene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Materials/gate side bar.mat" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Materials/gate side bar.mat" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Char Animator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Char Animator.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Fonts/multi-lang-rounded SDF.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Fonts/multi-lang-rounded SDF.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Levels/Level 1.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Level 1.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Levels/Level 32.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Level 32.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Levels/Level 32.unity.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Levels/Level 32.unity.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/InGameManager.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/InGameManager.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Pipe.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Pipe.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GirlsReaction.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GirlsReaction.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Miscellaneous/HotWaterMaker.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Miscellaneous/HotWaterMaker.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/WaterLevel.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WaterLevel.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/BGs/Bg 2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Sprites/BGs/Bg 2.png.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/TextMesh Pro/Resources/Fonts &amp; Materials/LiberationSans SDF - Fallback.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/EditorUserSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/CurrentMaximizeLayout.dwlt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" beforeDir="false" afterPath="$PROJECT_DIR$/UserSettings/Layouts/default-2022.dwlt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,11 +75,13 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/InGameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Miscellaneous/WaterEffectGenerator.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WaterLevel.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/AnimationSetter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Miscellaneous/RotateOnMouse.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/DragScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ReferenceBank.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/EffectsManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GirlsReaction.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UIManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Miscellaneous/Guides.cs" root0="FORCE_HIGHLIGHTING" />
@@ -59,6 +91,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Water2D/Core/Water2D_Spawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Miscellaneous/HotWaterMaker.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Miscellaneous/DragGuide.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Miscellaneous/ParticleFollower.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/BottleCap.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -74,22 +107,29 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/UIManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/BottleCap.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WastedWaterCounter.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/GirlsReaction.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Miscellaneous/IceFormation.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/InGameManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Miscellaneous/RoateOnMouse.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Miscellaneous/RotateOnMouse.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/EffectsManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GirlsReaction.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Miscellaneous/ParticleFollower.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Miscellaneous/WaterEffectGenerator.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Miscellaneous/HotWaterMaker.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WaterLevel.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="2AYQ6gd5pSgJyhah2MQl2WWYhtP" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="Discover.Launch.Via.Unity" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
@@ -123,6 +163,13 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1655896792322">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1655896792322" />
   </component>
 </project>

@@ -35,6 +35,14 @@ public class GirlsReaction : MonoBehaviour
             .Append(transform.DOMove(point2.position, 0.5f)).OnComplete(() =>
             {
                 _animator.SetTrigger(anim);
+                if(anim == "freeze")
+                {
+                    Vector3 spawnPos = new Vector3(transform.position.x, transform.position.y + 6,
+                        transform.position.z);
+                    Transform freezeEmoji = Instantiate(EffectsManager.instance.freezeEmojiReaction, spawnPos,
+                        Quaternion.identity).transform;
+                    freezeEmoji.transform.DOScale(Vector3.zero, 0.4f).From();
+                }
                 //heartParticle.SetActive(true);
             });
     }

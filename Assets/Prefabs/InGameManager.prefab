@@ -350,7 +350,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: -300}
+  m_AnchoredPosition: {x: 0, y: -16}
   m_SizeDelta: {x: 266.3416, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!222 &7528963082910412190
@@ -582,7 +582,7 @@ MonoBehaviour:
   m_hasFontAssetChanged: 0
   m_baseMaterial: {fileID: 0}
   m_maskOffset: {x: 0, y: 0, z: 0, w: 0}
---- !u!1 &5237127883788792007
+--- !u!1 &6600601834326947178
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -590,9 +590,9 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 4335965782412452969}
-  - component: {fileID: 4811939673505165620}
-  - component: {fileID: 4043835981004893728}
+  - component: {fileID: 3629711249542262698}
+  - component: {fileID: 668330091296142538}
+  - component: {fileID: 2046774991693364955}
   m_Layer: 0
   m_Name: Text (TMP)
   m_TagString: Untagged
@@ -600,41 +600,41 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!224 &4335965782412452969
+--- !u!224 &3629711249542262698
 RectTransform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5237127883788792007}
+  m_GameObject: {fileID: 6600601834326947178}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.2993, y: 2.2993, z: 2.2993}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 5148023771040445128}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 350}
-  m_SizeDelta: {x: 416.5094, y: 50}
+  m_AnchorMin: {x: 0, y: 0.5}
+  m_AnchorMax: {x: 1, y: 0.5}
+  m_AnchoredPosition: {x: 0, y: 622}
+  m_SizeDelta: {x: 0, y: 129.574}
   m_Pivot: {x: 0.5, y: 0.5}
---- !u!222 &4811939673505165620
+--- !u!222 &668330091296142538
 CanvasRenderer:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5237127883788792007}
+  m_GameObject: {fileID: 6600601834326947178}
   m_CullTransparentMesh: 1
---- !u!114 &4043835981004893728
+--- !u!114 &2046774991693364955
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 5237127883788792007}
+  m_GameObject: {fileID: 6600601834326947178}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
@@ -675,10 +675,10 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 36
+  m_fontSize: 72
   m_fontSizeBase: 36
   m_fontWeight: 400
-  m_enableAutoSizing: 0
+  m_enableAutoSizing: 1
   m_fontSizeMin: 18
   m_fontSizeMax: 72
   m_fontStyle: 1
@@ -747,7 +747,7 @@ RectTransform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 3678786486896228944}
-  - {fileID: 4335965782412452969}
+  - {fileID: 3629711249542262698}
   - {fileID: 646533153042088235}
   m_Father: {fileID: 7920185249253961764}
   m_RootOrder: -1
@@ -1903,6 +1903,7 @@ GameObject:
   - component: {fileID: 7387804308996244353}
   - component: {fileID: 7387804308996244382}
   - component: {fileID: 7387804308996244352}
+  - component: {fileID: 4947583474980685384}
   m_Layer: 0
   m_Name: InGameManager
   m_TagString: Untagged
@@ -1957,6 +1958,20 @@ MonoBehaviour:
   winCanvas: {fileID: 7387804308683737967}
   failCanvas: {fileID: 2913855669416924703}
   levelNumText: {fileID: 7213641247384732200}
+--- !u!114 &4947583474980685384
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7387804308996244383}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b9eb050901c09784db9da977eac4410f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  freezeEmojiReaction: {fileID: 1199745518107891747, guid: 3a939e20ecce2de4aaa38be182cb1e62, type: 3}
+  steamFx: {fileID: 1036735632274200015, guid: cf12b661c9fa4de42879343ca78ec1d9, type: 3}
 --- !u!1 &7580540195537266601
 GameObject:
   m_ObjectHideFlags: 0
