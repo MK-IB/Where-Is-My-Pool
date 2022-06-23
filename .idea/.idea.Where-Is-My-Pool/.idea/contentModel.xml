@@ -372,6 +372,7 @@
           <e p="DragScript.cs" t="Include" />
           <e p="EffectsManager.cs" t="Include" />
           <e p="GirlsReaction.cs" t="Include" />
+          <e p="Hints.cs" t="Include" />
           <e p="InGameManager.cs" t="Include" />
           <e p="Miscellaneous" t="Include">
             <e p="DragGuide.cs" t="Include" />

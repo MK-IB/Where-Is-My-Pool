@@ -16,6 +16,8 @@ public class UIManager : MonoBehaviour
     [Header("UIs")]
     public TextMeshProUGUI levelNumText;
 
+    public GameObject hintButton;
+
     private void Awake()
     {
         instance = this;
@@ -24,5 +26,11 @@ public class UIManager : MonoBehaviour
     private void Start()
     {
         levelNumText.SetText("Lv." + (SceneManager.GetActiveScene().buildIndex + 1));
+        //if(SceneManager.GetActiveScene().buildIndex == 1) hintButton.SetActive(false);
+    }
+
+    public void OnHintButtonPressed()
+    {
+        Hints.instance.ShowHints();
     }
 }

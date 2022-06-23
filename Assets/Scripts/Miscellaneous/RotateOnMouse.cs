@@ -7,6 +7,11 @@ public class RotateOnMouse : MonoBehaviour
 {
     public float speed;
 
+    private void OnMouseDown()
+    {
+        if(Hints.instance) Hints.instance.HideHints();
+    }
+
     private void OnMouseDrag()
     {
         transform.Rotate(Vector3.forward * speed * Time.deltaTime, Space.Self);

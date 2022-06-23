@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using DG.Tweening;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using Water2D;
 
 public class InGameManager : MonoBehaviour
 {
@@ -14,6 +15,11 @@ public class InGameManager : MonoBehaviour
     private void Awake()
     {
         instance = this;
+    }
+
+    private void Start()
+    {
+        //isHotWaterLevel = true;
     }
 
     private void Update()

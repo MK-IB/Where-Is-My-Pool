@@ -390,8 +390,7 @@
           
             //Register
             SpawnersManager.ChangeSpawnerValues(instance);
-
-            
+            GravityScale = 1;
         }
 
 

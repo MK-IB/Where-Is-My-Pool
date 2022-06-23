@@ -44,6 +44,7 @@ public class DragScript : MonoBehaviour
         {
             //transform.DOScale(originalScale, 0.1f);
         });
+        if(Hints.instance) Hints.instance.HideHints();
         //SoundManager.instance.PlayClip(SoundManager.instance.blockTouch);
     }
 

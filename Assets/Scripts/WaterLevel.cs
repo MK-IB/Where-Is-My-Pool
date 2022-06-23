@@ -26,9 +26,7 @@ public class WaterLevel : MonoBehaviour
     private void Start()
     {
         totalParticles = water2DSpawner.DropCount;
-        if(!InGameManager.instance.isHotWaterLevel)
-            tagToCheck = "Metaball_liquid";
-        else tagToCheck = "Hot_particle";
+        tagToCheck = "Hot_particle";
     }
 
     private void OnTriggerEnter2D(Collider2D other)
