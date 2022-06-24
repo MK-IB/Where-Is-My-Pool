@@ -45,6 +45,7 @@ public class DragScript : MonoBehaviour
             //transform.DOScale(originalScale, 0.1f);
         });
         if(Hints.instance) Hints.instance.HideHints();
+        SoundsManager.instance.PlayClip(SoundsManager.instance.holdStart);
         //SoundManager.instance.PlayClip(SoundManager.instance.blockTouch);
     }
 
@@ -63,11 +64,14 @@ public class DragScript : MonoBehaviour
             //movePos.y = originalPos.y;
             transform.position = movePos + offset;
             //SnapToGrid();
+            SoundsManager.instance.dragClipSource.enabled = true;
         }
     }
     private void OnMouseUp()
     {
         transform.DOScale(originalScale, 0.15f);
+        SoundsManager.instance.PlayClip(SoundsManager.instance.holdRelease);
+        SoundsManager.instance.dragClipSource.enabled = false;
     }
 
     void SnapToGrid()

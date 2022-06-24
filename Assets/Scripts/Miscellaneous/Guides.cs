@@ -23,7 +23,8 @@ public class Guides : MonoBehaviour
     public void DisableAllGuides()
     {
         textGuide.DOColor(new Color(0, 0, 0, 0), 0.5f);
-        arrowGuide.DOFade(0, 0.5f);
+        DOTween.Kill(arrowGuide);
+        arrowGuide.GetComponent<SpriteRenderer>().enabled = false;
     }
     
 

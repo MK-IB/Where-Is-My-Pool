@@ -44,7 +44,8 @@ public class WaterLevel : MonoBehaviour
             {
                 underwaterBubbleEffect.Play();
                 steamEffect.Play();
-                steamEffect.startColor = Color.red;
+                var main = steamEffect.main;
+                main.startColor = Color.red;
             }
             if (per >= 55)
             {
@@ -86,9 +87,10 @@ public class WaterLevel : MonoBehaviour
             StartCoroutine(girlsReactions[i].GetIntoThePool("swim"));
         }
 
-        DOVirtual.DelayedCall(3.5f, () =>
+        DOVirtual.DelayedCall(5.5f, () =>
         {
             winConfettiBlast.SetActive(true);
+            SoundsManager.instance.PlayClip(SoundsManager.instance.confettiBlast);
             InGameManager.instance.StartCoroutine(InGameManager.instance.WinEffects());
         });
     }
@@ -110,6 +112,7 @@ public class WaterLevel : MonoBehaviour
         {
             //winConfettiBlast.SetActive(true);
             UIManager.instance.failCanvas.SetActive(true);
+            SoundsManager.instance.PlayClip(SoundsManager.instance.fail);
         });
     }
 

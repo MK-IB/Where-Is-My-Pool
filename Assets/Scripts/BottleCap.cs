@@ -19,5 +19,11 @@ public class BottleCap : MonoBehaviour
     {
         float initialXPos = transform.position.x;
         transform.DOMove(new Vector3(initialXPos + moveValue, transform.position.y, transform.position.z), 1f);
+        
+        SoundsManager.instance.PlayClip(SoundsManager.instance.pop);
+        DOVirtual.DelayedCall(1.5f, () =>
+        {
+            SoundsManager.instance.PlayClip(SoundsManager.instance.waterPouring);
+        });
     }
 }

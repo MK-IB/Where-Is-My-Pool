@@ -36,6 +36,7 @@ public class WastedWaterCounter : MonoBehaviour
          InGameManager.instance.gameOver = true;
          yield return new WaitForSeconds(2.5f);
          UIManager.instance.failCanvas.SetActive(true);
+         SoundsManager.instance.PlayClip(SoundsManager.instance.fail);
       }
    }
 }

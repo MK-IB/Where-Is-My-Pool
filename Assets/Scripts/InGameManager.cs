@@ -1,4 +1,3 @@
-using System;
 using System.Collections;
 using System.Collections.Generic;
 using DG.Tweening;
@@ -33,7 +32,17 @@ public class InGameManager : MonoBehaviour
     }
     public void NextLevel()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+        if (PlayerPrefs.GetInt("level", 1) >= SceneManager.sceneCountInBuildSettings - 1)
+        {
+            SceneManager.LoadScene(Random.Range(1, SceneManager.sceneCountInBuildSettings - 1));
+            PlayerPrefs.SetInt("level", (PlayerPrefs.GetInt("level", 1) + 1));
+        }
+        else
+        {
+            SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
+            PlayerPrefs.SetInt("level", (PlayerPrefs.GetInt("level", 1) + 1));
+        }
+        PlayerPrefs.SetInt("levelnumber", PlayerPrefs.GetInt("levelnumber", 1) + 1);
     }
 
     public IEnumerator WinEffects()

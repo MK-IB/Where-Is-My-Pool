@@ -26,24 +26,34 @@ public class GirlsReaction : MonoBehaviour
         {
             cloth[i].enabled = true;
         }
-        
+
         yield return new WaitForSeconds(1f);
         _animator.SetTrigger("jump");
         yield return new WaitForSeconds(0.5f);
 
-        DOTween.Sequence().Append(transform.DOMove(point1.position, 0.5f))
-            .Append(transform.DOMove(point2.position, 0.5f)).OnComplete(() =>
-            {
-                _animator.SetTrigger(anim);
-                if(anim == "freeze")
-                {
-                    Vector3 spawnPos = new Vector3(transform.position.x, transform.position.y + 6,
-                        transform.position.z);
-                    Transform freezeEmoji = Instantiate(EffectsManager.instance.freezeEmojiReaction, spawnPos,
-                        Quaternion.identity).transform;
-                    freezeEmoji.transform.DOScale(Vector3.zero, 0.4f).From();
-                }
-                //heartParticle.SetActive(true);
-            });
+        transform.DOMove(point1.position, 0.5f);
+        yield return new WaitForSeconds(0.5f);
+        transform.DOMove(point2.position, 0.5f);
+        SoundsManager.instance.PlayClip(SoundsManager.instance.waterSplash);
+        yield return new WaitForSeconds(0.5f);
+
+        _animator.SetTrigger(anim);
+        if (anim == "freeze")
+        {
+            Vector3 spawnPos = new Vector3(transform.position.x, transform.position.y + 6,
+                transform.position.z);
+            Transform freezeEmoji = Instantiate(EffectsManager.instance.freezeEmojiReaction, spawnPos,
+                Quaternion.identity).transform;
+            freezeEmoji.transform.DOScale(Vector3.zero, 0.4f).From();
+            yield return new WaitForSeconds(0.8f);
+            SoundsManager.instance.PlayClip(SoundsManager.instance.girlsReactionBad);
+        }
+        else
+        {
+            yield return new WaitForSeconds(0.8f);
+            SoundsManager.instance.PlayClip(SoundsManager.instance.girlsReactionGood);
+        }
+
+        //heartParticle.SetActive(true);
     }
 }

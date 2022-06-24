@@ -374,6 +374,7 @@
           <e p="GirlsReaction.cs" t="Include" />
           <e p="Hints.cs" t="Include" />
           <e p="InGameManager.cs" t="Include" />
+          <e p="MainMenu.cs" t="Include" />
           <e p="Miscellaneous" t="Include">
             <e p="DragGuide.cs" t="Include" />
             <e p="Guides.cs" t="Include" />
@@ -387,6 +388,7 @@
           </e>
           <e p="ReferenceBank.cs" t="Include" />
           <e p="SimpleMovement.cs" t="Include" />
+          <e p="SoundsManager.cs" t="Include" />
           <e p="UIManager.cs" t="Include" />
           <e p="WastedWaterCounter.cs" t="Include" />
           <e p="WaterLevel.cs" t="Include" />

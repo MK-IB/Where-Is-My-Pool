@@ -74,6 +74,7 @@
       <Path>Where's My Pool Test 2_BurstDebugInformation_DoNotShip</Path>
       <Path>Where's My Pool Test 3_BurstDebugInformation_DoNotShip</Path>
       <Path>Where's My Pool Test 4_BurstDebugInformation_DoNotShip</Path>
+      <Path>Where's My Pool Test 5_BurstDebugInformation_DoNotShip</Path>
       <Path>Where's My Pool_BurstDebugInformation_DoNotShip</Path>
       <Path>obj</Path>
     </explicitExcludes>

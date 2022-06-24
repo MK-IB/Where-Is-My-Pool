@@ -25,8 +25,9 @@ public class UIManager : MonoBehaviour
 
     private void Start()
     {
-        levelNumText.SetText("Lv." + (SceneManager.GetActiveScene().buildIndex + 1));
-        //if(SceneManager.GetActiveScene().buildIndex == 1) hintButton.SetActive(false);
+        int currentLevel = PlayerPrefs.GetInt("levelnumber", 1);
+        levelNumText.text = "Lv " + currentLevel.ToString();
+        if(SceneManager.GetActiveScene().buildIndex == 1) hintButton.SetActive(false);
     }
 
     public void OnHintButtonPressed()
