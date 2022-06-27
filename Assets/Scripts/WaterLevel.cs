@@ -22,6 +22,7 @@ public class WaterLevel : MonoBehaviour
     public string tagToCheck;
 
     private float particleCounter = 0;
+    private float _coldParticleCounter = 0;
 
     private void Start()
     {
@@ -31,7 +32,7 @@ public class WaterLevel : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.gameObject.CompareTag(tagToCheck))
+        if (other.gameObject.CompareTag("Hot_particle"))
         {
             splashEffect.Play();
             waterLevel.localPosition += new Vector3(0, Time.deltaTime * fillSpeed, 0);
@@ -43,33 +44,36 @@ public class WaterLevel : MonoBehaviour
             if(per>30 )
             {
                 underwaterBubbleEffect.Play();
-                steamEffect.Play();
-                var main = steamEffect.main;
-                main.startColor = Color.red;
             }
             if (per >= 55)
             {
+                var main = steamEffect.main;
+                main.startColor = Color.white;
+                steamEffect.Play();
                 EnoughWaterReached();
                 DisappearWaterHeater();
             }
         }
-        else
+        else if(other.gameObject.CompareTag("Metaball_liquid"))
         {
             splashEffect.Play();
             waterLevel.localPosition += new Vector3(0, Time.deltaTime * fillSpeed, 0);
             
-            particleCounter++;
-            float per = (particleCounter / totalParticles) * 100;
+            _coldParticleCounter++;
+            float per = (_coldParticleCounter / totalParticles) * 100;
             //print("per = " + per);
             perText.text  = (int)per + "%";
             if(per>30 )
             {
                 underwaterBubbleEffect.Play();
-                steamEffect.startColor = Color.white;
-                steamEffect.Play();
+                /*steamEffect.startColor = Color.white;
+                steamEffect.Play();*/
             }
             if (per >= 55)
             {
+                var main = steamEffect.main;
+                main.startColor = InGameManager.instance.hotWaterBlue;
+                steamEffect.Play();
                 FreezeTheGirls();
             }
         }

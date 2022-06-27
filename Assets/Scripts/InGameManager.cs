@@ -10,6 +10,7 @@ public class InGameManager : MonoBehaviour
     public static InGameManager instance;
     public bool gameOver;
     public bool isHotWaterLevel;
+    public Color hotWaterBlue;
 
     private void Awake()
     {
