@@ -11,8 +11,11 @@ public class BottleCap : MonoBehaviour
     
     void Start()
     {
-        if (moveRight) moveValue = 3;
-        else moveValue = -3;
+        if (moveRight) moveValue = 5;
+        else moveValue = -5;
+
+        Transform myParent = transform.parent;
+        myParent.position = new Vector3(myParent.position.x, 9.22f, myParent.position.z);
     } 
 
     private void OnMouseDown()

@@ -19,7 +19,7 @@ public class InGameManager : MonoBehaviour
 
     private void Start()
     {
-        //isHotWaterLevel = true;
+        GA_FB.instance.LevelStart(SceneManager.GetActiveScene().buildIndex.ToString());
     }
 
     private void Update()

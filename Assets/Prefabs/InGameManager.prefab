@@ -1307,7 +1307,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &7387804307577772877
 RectTransform:
   m_ObjectHideFlags: 0
@@ -2165,6 +2165,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   freezeEmojiReaction: {fileID: 1199745518107891747, guid: 3a939e20ecce2de4aaa38be182cb1e62, type: 3}
   steamFx: {fileID: 1036735632274200015, guid: cf12b661c9fa4de42879343ca78ec1d9, type: 3}
+  coldWaterEffect: {fileID: 138890, guid: 4eb14a3cf15e06c48b9c1046925132ba, type: 3}
 --- !u!114 &7301339183901257799
 MonoBehaviour:
   m_ObjectHideFlags: 0

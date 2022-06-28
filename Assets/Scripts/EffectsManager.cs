@@ -9,6 +9,7 @@ public class EffectsManager : MonoBehaviour
     
     public GameObject freezeEmojiReaction;
     public GameObject steamFx;
+    public GameObject coldWaterEffect;
 
     private void Awake()
     {

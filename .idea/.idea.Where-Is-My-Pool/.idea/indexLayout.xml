@@ -3,6 +3,8 @@
   <component name="ContentModelUserStore">
     <attachedFolders />
     <explicitIncludes>
+      <Path>Library/PackageCache/com.onesignal.unity.android@3.0.1</Path>
+      <Path>Library/PackageCache/com.onesignal.unity.core@3.0.1</Path>
       <Path>Library/PackageCache/com.unity.burst@1.7.1</Path>
       <Path>Library/PackageCache/com.unity.collab-proxy@1.15.16</Path>
       <Path>Library/PackageCache/com.unity.device-simulator.devices@1.0.0</Path>
@@ -69,6 +71,20 @@
       <Path>Recordings</Path>
       <Path>Temp</Path>
       <Path>UserSettings</Path>
+      <Path>Where's My Pool 1.1_BackUpThisFolder_ButDontShipItWithYourGame</Path>
+      <Path>Where's My Pool 1.1_BurstDebugInformation_DoNotShip</Path>
+      <Path>Where's My Pool 1.2_BackUpThisFolder_ButDontShipItWithYourGame</Path>
+      <Path>Where's My Pool 1.2_BurstDebugInformation_DoNotShip</Path>
+      <Path>Where's My Pool 1.3_BackUpThisFolder_ButDontShipItWithYourGame</Path>
+      <Path>Where's My Pool 1.3_BurstDebugInformation_DoNotShip</Path>
+      <Path>Where's My Pool 1.4_BackUpThisFolder_ButDontShipItWithYourGame</Path>
+      <Path>Where's My Pool 1.4_BurstDebugInformation_DoNotShip</Path>
+      <Path>Where's My Pool 1.5_BackUpThisFolder_ButDontShipItWithYourGame</Path>
+      <Path>Where's My Pool 1.5_BurstDebugInformation_DoNotShip</Path>
+      <Path>Where's My Pool 1.6_BackUpThisFolder_ButDontShipItWithYourGame</Path>
+      <Path>Where's My Pool 1.6_BurstDebugInformation_DoNotShip</Path>
+      <Path>Where's My Pool 1.7_BackUpThisFolder_ButDontShipItWithYourGame</Path>
+      <Path>Where's My Pool 1.7_BurstDebugInformation_DoNotShip</Path>
       <Path>Where's My Pool 2_BurstDebugInformation_DoNotShip</Path>
       <Path>Where's My Pool Test 1_BurstDebugInformation_DoNotShip</Path>
       <Path>Where's My Pool Test 2_BurstDebugInformation_DoNotShip</Path>

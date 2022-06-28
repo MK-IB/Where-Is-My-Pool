@@ -7,6 +7,7 @@ TagManager:
   - particle
   - Metaball_liquid
   - Hot_particle
+  - steam
   layers:
   - Default
   - TransparentFX
@@ -15,7 +16,7 @@ TagManager:
   - Water
   - UI
   - fluid
-  - 
+  - coldParticle
   - Background
   - 
   - 

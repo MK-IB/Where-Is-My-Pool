@@ -5,6 +5,7 @@
     <e p="C:\Users\ADMIN\AppData\Local\JetBrains\Rider2020.1\resharper-host\Local\Transient\ReSharperHost\v201\SolutionCaches\_Where-Is-My-Pool.-1557261484.00" t="ExcludeRecursive" />
     <e p="D:\Projects\Where-Is-My-Pool" t="IncludeRecursive">
       <e p="Assembly-CSharp-Editor.csproj" t="IncludeRecursive" />
+      <e p="Assembly-CSharp-firstpass.csproj" t="IncludeRecursive" />
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
         <e p="Demigiant" t="Include">
@@ -41,6 +42,36 @@
           </e>
           <e p="readme_DOTweenPro.txt" t="Include" />
         </e>
+        <e p="ExternalDependencyManager" t="Include">
+          <e p="Editor" t="Include">
+            <e p="external-dependency-manager_version-1.2.168_manifest.txt" t="Include" />
+          </e>
+        </e>
+        <e p="FacebookSDK" t="Include">
+          <e p="EXAMPLES" t="Include">
+            <e p="Scripts" t="Include">
+              <e p="ConsoleBase.cs" t="Include" />
+              <e p="LogView.cs" t="Include" />
+              <e p="MenuBase.cs" t="Include" />
+              <e p="SubMenus" t="Include">
+                <e p="AccessTokenMenu.cs" t="Include" />
+                <e p="AppEvents.cs" t="Include" />
+                <e p="AppLinks.cs" t="Include" />
+                <e p="AppRequests.cs" t="Include" />
+                <e p="DialogShare.cs" t="Include" />
+                <e p="GraphRequest.cs" t="Include" />
+                <e p="MainMenu.cs" t="Include" />
+                <e p="Pay.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="link.xml" t="Include" />
+          <e p="Plugins" t="Include">
+            <e p="Editor" t="Include">
+              <e p="Dependencies.xml" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="FluidSim" t="Include">
           <e p="_Done" t="Include">
             <e p="Scripts" t="Include">
@@ -73,6 +104,106 @@
               <e p="World_Sprite.cs" t="Include" />
             </e>
           </e>
+        </e>
+        <e p="GameAnalytics" t="Include">
+          <e p="Editor" t="Include">
+            <e p="GA_AssetPostprocessor.cs" t="Include" />
+            <e p="GA_AutoRun.cs" t="Include" />
+            <e p="GA_ContinuationManager.cs" t="Include" />
+            <e p="GA_EditorUtilities.cs" t="Include" />
+            <e p="GA_Menu.cs" t="Include" />
+            <e p="GA_PostprocessBuild.cs" t="Include" />
+            <e p="GA_SettingsInspector.cs" t="Include" />
+            <e p="GA_SignUp.cs" t="Include" />
+            <e p="GA_UpdateWindow.cs" t="Include" />
+            <e p="GameAnalyticsInspector.cs" t="Include" />
+            <e p="Playmaker" t="Include">
+              <e p="PlayMakerPresenceCheck.cs" t="Include" />
+              <e p="SendProgressionEventActionEditor.cs" t="Include" />
+              <e p="SendResourceEventActionEditor.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Plugins" t="Include">
+            <e p="Playmaker" t="Include">
+              <e p="GAInitialize.cs" t="Include" />
+              <e p="GetABTestingId.cs" t="Include" />
+              <e p="GetABTestingVariantId.cs" t="Include" />
+              <e p="GetRemoteConfigsValueAsString.cs" t="Include" />
+              <e p="IsRemoteConfigsReady.cs" t="Include" />
+              <e p="SendAdEvent.cs" t="Include" />
+              <e p="SendBusinessEvent.cs" t="Include" />
+              <e p="SendDesignEvent.cs" t="Include" />
+              <e p="SendErrorEvent.cs" t="Include" />
+              <e p="SendProgressionEvent.cs" t="Include" />
+              <e p="SendResourceEvent.cs" t="Include" />
+              <e p="SetCustomDimension.cs" t="Include" />
+            </e>
+            <e p="Scripts" t="Include">
+              <e p="ATT" t="Include">
+                <e p="GameAnalyticsATTClient.cs" t="Include" />
+                <e p="GameAnalyticsATTObjCBridge.cs" t="Include" />
+              </e>
+              <e p="Enums.cs" t="Include" />
+              <e p="Events" t="Include">
+                <e p="GA_Ads.cs" t="Include" />
+                <e p="GA_Business.cs" t="Include" />
+                <e p="GA_Debug.cs" t="Include" />
+                <e p="GA_Design.cs" t="Include" />
+                <e p="GA_Error.cs" t="Include" />
+                <e p="GA_Progression.cs" t="Include" />
+                <e p="GA_Resource.cs" t="Include" />
+                <e p="GA_Setup.cs" t="Include" />
+                <e p="GA_SpecialEvents.cs" t="Include" />
+                <e p="GAValidator.cs" t="Include" />
+              </e>
+              <e p="GameAnalytics.cs" t="Include" />
+              <e p="IGameAnalyticsATTListener.cs" t="Include" />
+              <e p="ILRD" t="Include">
+                <e p="Aequus" t="Include">
+                  <e p="GAAequusIntegration.cs" t="Include" />
+                </e>
+                <e p="Fyber" t="Include">
+                  <e p="GAFyberIntegration.cs" t="Include" />
+                </e>
+                <e p="GameAnalyticsILRD.cs" t="Include" />
+                <e p="HyperBid" t="Include">
+                  <e p="GAHyperBidIntegration.cs" t="Include" />
+                </e>
+                <e p="IronSource" t="Include">
+                  <e p="GAIronSourceIntegration.cs" t="Include" />
+                </e>
+                <e p="Max" t="Include">
+                  <e p="GAMaxIntegration.cs" t="Include" />
+                </e>
+                <e p="Mopub" t="Include">
+                  <e p="GAMopubIntegration.cs" t="Include" />
+                </e>
+                <e p="TopOn" t="Include">
+                  <e p="GATopOnIntegration.cs" t="Include" />
+                </e>
+              </e>
+              <e p="Setup" t="Include">
+                <e p="Settings.cs" t="Include" />
+              </e>
+              <e p="State" t="Include">
+                <e p="GAState.cs" t="Include" />
+              </e>
+              <e p="Utilities" t="Include">
+                <e p="GA_MiniJson.cs" t="Include" />
+              </e>
+              <e p="Wrapper" t="Include">
+                <e p="GA_AndroidWrapper.cs" t="Include" />
+                <e p="GA_iOSWrapper.cs" t="Include" />
+                <e p="GA_MonoWrapper.cs" t="Include" />
+                <e p="GA_TizenWrapper.cs" t="Include" />
+                <e p="GA_tvOSWrapper.cs" t="Include" />
+                <e p="GA_UWPWrapper.cs" t="Include" />
+                <e p="GA_WebGLWrapper.cs" t="Include" />
+                <e p="GA_Wrapper.cs" t="Include" />
+              </e>
+            </e>
+          </e>
+          <e p="readme.txt" t="Include" />
         </e>
         <e p="JMO Assets" t="Include">
           <e p="Toony Colors Pro" t="Include">
@@ -359,6 +490,48 @@
           </e>
         </e>
         <e p="LinearGradient.shader" t="Include" />
+        <e p="OneSignal" t="Include">
+          <e p="Attribution" t="Include">
+            <e p="OneSignal.UnityPackage.Attribution.asmdef" t="Include" />
+            <e p="VspAttribution.cs" t="Include" />
+          </e>
+          <e p="Editor" t="Include">
+            <e p="AssemblyInfo.cs" t="Include" />
+            <e p="OneSignal.UnityPackage.Editor.asmdef" t="Include" />
+            <e p="OneSignalBootstrapper.cs" t="Include" />
+            <e p="OneSignalFileInventory.cs" t="Include" />
+            <e p="PackageManagement" t="Include">
+              <e p="Dependency.cs" t="Include" />
+              <e p="Manifest.cs" t="Include" />
+              <e p="ScopeRegistry.cs" t="Include" />
+            </e>
+            <e p="Setup" t="Include">
+              <e p="OneSignalSetupStep.cs" t="Include" />
+              <e p="OneSignalSetupWindow.cs" t="Include" />
+            </e>
+            <e p="SetupSteps" t="Include">
+              <e p="CleanUpLegacyStep.cs" t="Include" />
+              <e p="ImportPackagesStep.cs" t="Include" />
+            </e>
+            <e p="Utilities" t="Include">
+              <e p="MiniJSON.cs" t="Include" />
+              <e p="ReflectionHelpers.cs" t="Include" />
+            </e>
+          </e>
+          <e p="Example" t="Include">
+            <e p="OneSignal.UnityPackage.Example.asmdef" t="Include" />
+            <e p="OneSignalExampleBehaviour.cs" t="Include" />
+          </e>
+          <e p="link.xml" t="Include" />
+        </e>
+        <e p="Plugins" t="Include">
+          <e p="Android" t="Include">
+            <e p="AndroidManifest.xml" t="Include" />
+            <e p="OneSignalConfig.plugin" t="Include">
+              <e p="AndroidManifest.xml" t="Include" />
+            </e>
+          </e>
+        </e>
         <e p="Polygon Arsenal" t="Include">
           <e p="Shaders" t="Include">
             <e p="Standard" t="Include">
@@ -371,6 +544,8 @@
           <e p="BottleCap.cs" t="Include" />
           <e p="DragScript.cs" t="Include" />
           <e p="EffectsManager.cs" t="Include" />
+          <e p="FaceBookScript.cs" t="Include" />
+          <e p="GA_FB.cs" t="Include" />
           <e p="GirlsReaction.cs" t="Include" />
           <e p="Hints.cs" t="Include" />
           <e p="InGameManager.cs" t="Include" />
@@ -386,6 +561,7 @@
             <e p="Tutorials.cs" t="Include" />
             <e p="WaterEffectGenerator.cs" t="Include" />
           </e>
+          <e p="OneSignalScript.cs" t="Include" />
           <e p="ReferenceBank.cs" t="Include" />
           <e p="SimpleMovement.cs" t="Include" />
           <e p="SoundsManager.cs" t="Include" />
@@ -527,6 +703,9 @@
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />
+      <e p="OneSignal.UnityPackage.Attribution.csproj" t="IncludeRecursive" />
+      <e p="OneSignal.UnityPackage.Editor.csproj" t="IncludeRecursive" />
+      <e p="OneSignal.UnityPackage.Example.csproj" t="IncludeRecursive" />
       <e p="Packages" t="ExcludeRecursive" />
       <e p="Temp\Bin" t="ExcludeRecursive" />
       <e p="ToonyColorsPro.Demo.Editor.csproj" t="IncludeRecursive" />

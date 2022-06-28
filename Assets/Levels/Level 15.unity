@@ -31141,6 +31141,43 @@ Transform:
   m_Father: {fileID: 1437784382}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!84 &622713018
+RenderTexture:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: 
+  m_ImageContentsHash:
+    serializedVersion: 2
+    Hash: 00000000000000000000000000000000
+  m_ForcedFallbackFormat: 4
+  m_DownscaleFallback: 0
+  m_IsAlphaChannelOptional: 0
+  serializedVersion: 5
+  m_Width: 1080
+  m_Height: 2280
+  m_AntiAliasing: 1
+  m_MipCount: -1
+  m_DepthStencilFormat: 94
+  m_ColorFormat: 8
+  m_MipMap: 0
+  m_GenerateMips: 1
+  m_SRGB: 0
+  m_UseDynamicScale: 0
+  m_BindMS: 0
+  m_EnableCompatibleFormat: 1
+  m_TextureSettings:
+    serializedVersion: 2
+    m_FilterMode: 1
+    m_Aniso: 1
+    m_MipBias: 0
+    m_WrapU: 1
+    m_WrapV: 1
+    m_WrapW: 1
+  m_Dimension: 2
+  m_VolumeDepth: 1
+  m_ShadowSamplingMode: 2
 --- !u!1 &622793913
 GameObject:
   m_ObjectHideFlags: 0
@@ -36053,43 +36090,6 @@ Transform:
   m_Father: {fileID: 1530301800}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!84 &726248601
-RenderTexture:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_Name: 
-  m_ImageContentsHash:
-    serializedVersion: 2
-    Hash: 00000000000000000000000000000000
-  m_ForcedFallbackFormat: 4
-  m_DownscaleFallback: 0
-  m_IsAlphaChannelOptional: 0
-  serializedVersion: 5
-  m_Width: 1080
-  m_Height: 1920
-  m_AntiAliasing: 1
-  m_MipCount: -1
-  m_DepthStencilFormat: 94
-  m_ColorFormat: 8
-  m_MipMap: 0
-  m_GenerateMips: 1
-  m_SRGB: 0
-  m_UseDynamicScale: 0
-  m_BindMS: 0
-  m_EnableCompatibleFormat: 1
-  m_TextureSettings:
-    serializedVersion: 2
-    m_FilterMode: 1
-    m_Aniso: 1
-    m_MipBias: 0
-    m_WrapU: 1
-    m_WrapV: 1
-    m_WrapW: 1
-  m_Dimension: 2
-  m_VolumeDepth: 1
-  m_ShadowSamplingMode: 2
 --- !u!1 &729264031
 GameObject:
   m_ObjectHideFlags: 0
@@ -45926,6 +45926,69 @@ SkinnedMeshRenderer:
     m_Center: {x: -0.0048411936, y: 0.85850537, z: 0.008899018}
     m_Extent: {x: 0.096997626, y: 0.16284144, z: 0.17184304}
   m_DirtyAABB: 0
+--- !u!1 &879870552
+GameObject:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 879870554}
+  - component: {fileID: 879870553}
+  m_Layer: 0
+  m_Name: Water2D_SpawnersManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &879870553
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879870552}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f7f045c5418628b499d2e51c527d25bb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  forceToClearColorBuffers: 0
+  spawnersID: 1ed02700
+  FillColorByID:
+  - {r: 0, g: 0.8759384, b: 1, a: 0.5882353}
+  CuttOffByID:
+  - 0.4
+  MultiplierByID:
+  - 4
+  FresnelColorByID:
+  - {r: 1, g: 1, b: 1, a: 0.8666667}
+  StyleByID:
+  - 0
+  LensSizeByID:
+  - 0
+  MagnitudeByID:
+  - 1.81
+  SpeedByID:
+  - 1.98
+  _allparticles: []
+--- !u!4 &879870554
+Transform:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 879870552}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 26
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &880248348
 GameObject:
   m_ObjectHideFlags: 0
@@ -90012,69 +90075,6 @@ Transform:
   m_Father: {fileID: 1437784382}
   m_RootOrder: -1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1569046487
-GameObject:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1569046489}
-  - component: {fileID: 1569046488}
-  m_Layer: 0
-  m_Name: Water2D_SpawnersManager
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1569046488
-MonoBehaviour:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569046487}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f7f045c5418628b499d2e51c527d25bb, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  forceToClearColorBuffers: 0
-  spawnersID: cad90b00
-  FillColorByID:
-  - {r: 0, g: 0.8759384, b: 1, a: 0.5882353}
-  CuttOffByID:
-  - 0.4
-  MultiplierByID:
-  - 4
-  FresnelColorByID:
-  - {r: 1, g: 1, b: 1, a: 0.8666667}
-  StyleByID:
-  - 0
-  LensSizeByID:
-  - 0
-  MagnitudeByID:
-  - 1.81
-  SpeedByID:
-  - 1.98
-  _allparticles: []
---- !u!4 &1569046489
-Transform:
-  m_ObjectHideFlags: 1
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1569046487}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_RootOrder: 26
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1572153499
 GameObject:
   m_ObjectHideFlags: 0
@@ -101714,7 +101714,7 @@ Camera:
     serializedVersion: 2
     m_Bits: 550
   m_RenderingPath: -1
-  m_TargetTexture: {fileID: 726248601}
+  m_TargetTexture: {fileID: 622713018}
   m_TargetDisplay: 0
   m_TargetEye: 3
   m_HDR: 0
@@ -125712,7 +125712,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6635347713676515869, guid: d72dc20d4ae740743804d3be37e8ffbc, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 8.9
+      value: 9.133
       objectReference: {fileID: 0}
     - target: {fileID: 6635347713676515869, guid: d72dc20d4ae740743804d3be37e8ffbc, type: 3}
       propertyPath: m_LocalPosition.z

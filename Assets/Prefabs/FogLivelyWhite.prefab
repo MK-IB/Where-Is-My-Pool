@@ -14,7 +14,7 @@ GameObject:
   - component: {fileID: 8861336356856426984}
   - component: {fileID: -4727077316305468302}
   - component: {fileID: 8298682082884798655}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: FogLivelyWhite
   m_TagString: steam
   m_Icon: {fileID: 0}
@@ -1295,8 +1295,8 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 1, g: 0.7028302, b: 0.7028302, a: 0}
-        key1: {r: 1, g: 1, b: 1, a: 0.67058825}
+        key0: {r: 0, g: 0.334579, b: 1, a: 0}
+        key1: {r: 0, g: 0.50425196, b: 1, a: 0.58431375}
         key2: {r: 1, g: 0.7254902, b: 0, a: 0}
         key3: {r: 1, g: 0.7254902, b: 0, a: 0}
         key4: {r: 0, g: 0, b: 0, a: 0}
@@ -1464,8 +1464,8 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     speedRange: {x: 0, y: 1}
-    tilesX: 2
-    tilesY: 2
+    tilesX: 1
+    tilesY: 1
     animationType: 0
     rowIndex: 0
     cycles: 1
@@ -4710,7 +4710,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 719f8d52fe2e6b444b41c2f7a8fe587b, type: 2}
+  - {fileID: 2100000, guid: f024a6cef3363fd4a930fa6907767c4e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

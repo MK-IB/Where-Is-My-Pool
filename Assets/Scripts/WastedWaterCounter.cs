@@ -2,6 +2,7 @@ using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class WastedWaterCounter : MonoBehaviour
 {
@@ -19,10 +20,15 @@ public class WastedWaterCounter : MonoBehaviour
       {
          other.gameObject.SetActive(false);
          counter++;
-         if (counter >= 45)
+         if (counter >= 50)
          {
             StartCoroutine(LevelFailed());
          }
+      }
+
+      if (other.gameObject.layer == 7)
+      {
+         other.gameObject.SetActive(false);
       }
    }
 
@@ -37,6 +43,7 @@ public class WastedWaterCounter : MonoBehaviour
          yield return new WaitForSeconds(2.5f);
          UIManager.instance.failCanvas.SetActive(true);
          SoundsManager.instance.PlayClip(SoundsManager.instance.fail);
+         GA_FB.instance.LevelFail(SceneManager.GetActiveScene().buildIndex.ToString());
       }
    }
 }

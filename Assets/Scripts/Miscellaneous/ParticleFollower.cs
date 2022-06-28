@@ -9,5 +9,6 @@ public class ParticleFollower : MonoBehaviour
     void Update()
     {
         transform.position = target.position;
+        if(transform.position.y < -10f) gameObject.SetActive(false);
     }
 }

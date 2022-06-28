@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using DG.Tweening;
 using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using Water2D;
 
 public class WaterLevel : MonoBehaviour
@@ -23,6 +24,8 @@ public class WaterLevel : MonoBehaviour
 
     private float particleCounter = 0;
     private float _coldParticleCounter = 0;
+
+    private bool coldEffectPlayed;
 
     private void Start()
     {
@@ -45,7 +48,7 @@ public class WaterLevel : MonoBehaviour
             {
                 underwaterBubbleEffect.Play();
             }
-            if (per >= 55)
+            if (per >= 50)
             {
                 var main = steamEffect.main;
                 main.startColor = Color.white;
@@ -63,17 +66,18 @@ public class WaterLevel : MonoBehaviour
             float per = (_coldParticleCounter / totalParticles) * 100;
             //print("per = " + per);
             perText.text  = (int)per + "%";
-            if(per>30 )
+            if(per>30 && !coldEffectPlayed)
             {
                 underwaterBubbleEffect.Play();
-                /*steamEffect.startColor = Color.white;
-                steamEffect.Play();*/
+                Instantiate(EffectsManager.instance.coldWaterEffect, steamEffect.transform.position,
+                    Quaternion.identity);
+                coldEffectPlayed = true;
             }
-            if (per >= 55)
+            if (per >= 50)
             {
-                var main = steamEffect.main;
+                /*var main = steamEffect.main;
                 main.startColor = InGameManager.instance.hotWaterBlue;
-                steamEffect.Play();
+                steamEffect.Play();*/
                 FreezeTheGirls();
             }
         }
@@ -97,6 +101,7 @@ public class WaterLevel : MonoBehaviour
             SoundsManager.instance.PlayClip(SoundsManager.instance.confettiBlast);
             InGameManager.instance.StartCoroutine(InGameManager.instance.WinEffects());
         });
+        GA_FB.instance.LevelCompleted(SceneManager.GetActiveScene().buildIndex.ToString());
     }
 
     void FreezeTheGirls()
@@ -118,6 +123,7 @@ public class WaterLevel : MonoBehaviour
             UIManager.instance.failCanvas.SetActive(true);
             SoundsManager.instance.PlayClip(SoundsManager.instance.fail);
         });
+        GA_FB.instance.LevelFail(SceneManager.GetActiveScene().buildIndex.ToString());
     }
 
     void DisappearWaterHeater()
